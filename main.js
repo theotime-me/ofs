@@ -148,7 +148,15 @@ function start_chrono() {
 
     chrono = setInterval(function() {
         $("#wrapper > .pres > .texts > div:nth-child("+(state+1)+") span").html(fancyTime(dates[state]));
-        $("#wrapper > .pres > .bar > div:nth-child("+(state+1)+")").css("height", fancyHeight(dates[state]))
+        $("#wrapper > .pres > .bar > div:nth-child("+(state+1)+")").css("height", fancyHeight(dates[state]));
+
+        if (((new Date().getTime() - dates[0])/1000) >= 720) {
+            clearInterval(chrono);
+
+            $("#wrapper > .pres .block .button").css("background-color", "#F012BE");
+            $("#wrapper > .pres .block .button").html("Outch...<p>C'est un peu long !</p>");
+            $("#wrapper > .pres .block > p").html("(c'est le moment de screen)");
+        }
     }, 1000);
 }
 
