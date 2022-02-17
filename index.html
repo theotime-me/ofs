@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <div class="logo">
+                <h1>Oral de <br>Français <br>Simulator <span class="version">3000</span></h1>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Accueil</h1>
+
+            <p>Un poti simulateur pour vous entraîner avant l'oral blanc (et aussi avant le vrai !). Bon courage dans vos révisions de ces 7 textes ^^</p>
+
+            <div class="button">C'est partiii !</div>
+            <span class="copyright">© 2022 Théotime F.</span>
+        </div>
+
+        <div class="reveal" style="display: none;">
+            <h1>Tirage</h1>
+
+            <span>TEXTE</span>
+            <h4 class="data_text">«L'arrivée à la Cour»</h4>
+            <p class="infos">Charles Baudelaire, 1870</p>
+            <span class="label_question">QUESTION</span>
+            <h5 class="data_question">Si vous pouvez m'envoyer la liste des questions types qu'elle nous avait partagé je pourrais les inclure ici, pour que le tirage soit complet ^^</h5>
+
+            <div class="block">
+                <p>Vous avez 30mn de préparation</p>
+
+                <div class="button">
+                    Démarrer la présentation
+                    <p>Intro et lecture</p>
+                </div>
+            </div>
+
+            <span class="copyright">© 2022 Théotime F.</span>
+        </div>
+
+        <div class="pres" style="display: none;">
+            <h1>Présentation</h1>
+            <div class="bar">
+                <div class="intro"></div>
+                <div class="analyse"></div>
+                <div class="conclusion"></div>
+                <div class="question"></div>
+            </div>
+
+            <div class="texts">
+                <div class="intro">
+                    <p>Intro et lecture</p>
+                    <span>00:00</span>
+                </div>
+
+                <div class="analyse">
+                    <p>Étude linéaire</p>
+                    <span>00:00</span>
+                </div>
+
+                <div class="conclusion">
+                    <p>Conclusion et ouverture</p>
+                    <span>00:00</span>
+                </div>
+
+                <div class="question">
+                    <p>Question de grammaire</p>
+                    <span>00:00</span>
+                </div>
+            </div>
+
+            <div class="block">
+                <p>Appuyez pour continuer</p>
+
+                <div class="button" data_state="start">
+                    Démarrer
+                    <p>Intro et lecture</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://pzm.herokuapp.com/code/$/date%7Ccookies"></script>
+    <script src="main.js"></script>
+</body>
+</html>

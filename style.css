@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500&family=Roboto:wght@400;500&family=Lexend+Deca:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 40px 32px;
+    font-family: "EB Garamond", sans-serif;
+}
+
+
+.header h1 {
+    font-family: "Lexend Deca";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header h1 span {
+    display: block;
+    color: #FF4136;
+}
+
+#wrapper > .intro {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 18px;
+}
+
+#wrapper > .intro p {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.intro .button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background: #FF4136;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-top: 24px;
+}
+
+div > span.copyright {
+	text-transform: none;
+	font-family: "EB Garamond", sans-serif;
+	font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .45);
+    margin-top: 24px;
+    display: block;
+}
+
+.reveal {
+    padding-top: 48px;
+}
+
+.reveal > span {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .45);
+}
+
+.reveal > h4 {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 32px;
+}
+
+.reveal > p.infos {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.reveal > p.infos span {
+	text-decoration: underline 1px;
+}
+
+.reveal .label_question {
+    margin-top: 24px;
+    display: block;
+}
+
+.reveal > h5 {
+    text-align: justify;
+	font-weight: 500;
+	font-style: italic;
+    font-size: 16px;
+}
+
+.block {
+    width: calc(100% - 24px);
+    margin-top: 48px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, .35);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.block > p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .45);
+    margin-bottom: 16px;
+}
+
+.block > .button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background: #FF4136;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.block > .button p {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    opacity: .8;
+}
+
+
+.reveal > h1, .pres > h1, #wrapper .intro > h1 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    top: 36px;
+    right: 36px;
+}
+
+
+
+.pres h1 span {
+	text-align: right;
+	display: block;
+	font-size: 16px;
+	opacity: .6;
+}
+
+.pres .bar {
+    height: 300px;
+    width: 30px;
+    margin-top: 28px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    float: left;
+
+}
+
+.pres .bar > .intro {
+    background: #0074D9;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+}
+
+.pres .bar > .analyse {
+    background: #B10DC9;
+}
+
+.pres .bar > .conclusion {
+    background: #FF4136;
+}
+
+.pres .bar > .question {
+    background: #FF851B;
+    border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -ms-border-radius: 0 0 6px 6px;
+    -o-border-radius: 0 0 6px 6px;
+}
+
+.pres .bar > div {
+    width: 100%;
+}
+
+.pres .texts {
+    margin-left: 24px;
+    margin-top: 36px;
+    float: left;
+}
+
+.pres .texts > div {
+    margin-bottom: 24px;
+}
+
+.pres .texts > div p {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pres .texts > div span {
+	color: rgba(0, 0, 0, .65);
+}
+
+.pres .texts > div.active.intro p {
+	color: #0074D9;
+}
+
+.pres .texts > div.active.analyse p {
+	color: #B10DC9;
+}
+
+.pres .texts > div.active.conclusion p {
+	color: #FF4136;
+}
+
+.pres .texts > div.active.question p {
+	color: #FF851B;
+}
+
+
+.pres .block {
+	margin-top: 12px;
+	float: left;
+}
