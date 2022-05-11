@@ -1,52 +1,101 @@
 let data = {
     texts: [
         {
-            name: "Vénus Anadyomène",
+            name: "EL1 - Vénus Anadyomène",
             book: "Cahiers de Douai",
             author: "Arthur Rimbaud",
             date: 1870
         },
 
         {
-            name: "Le Pain",
+            name: "EL2 - Le Pain",
             book: "Le Parti pris des choses",
             author: "Francis Ponge",
             date: 1942
         },
 
         {
-            name: "Une Charogne",
+            name: "EL3 - Une Charogne",
             book: "Les Fleurs du Mal",
             author: "Charles Baudelaire",
             date: 1857
         },
 
         {
-            name: "À une passante",
+            name: "EL4 - À une passante",
             book: "Les Fleurs du Mal",
             author: "Charles Baudelaire",
             date: 1857
         },
 
         {
-            name: "Spleen (4)",
+            name: "EL5 - Spleen (4)",
             book: "Les Fleurs du Mal",
             author: "Charles Baudelaire",
             date: 1857
         },
 
         {
-            name: "«L'arrivée à la Cour»",
+            name: "EL6 - «L'arrivée à la Cour»",
             book: "La Princesse de Clèves",
             author: "Madame de Lafayette",
             date: 1678
         },
 
         {
-            name: "«Le Bal»",
+            name: "EL7 - «Le Bal»",
             book: "La Princesse de Clèves",
             author: "Madame de Lafayette",
             date: 1678
+        },
+
+        {
+            name: "EL8 - «Le Dénouement»",
+            book: "La Princesse de Clèves",
+            author: "Madame de Lafayette",
+            date: 1678
+        },
+
+        {
+            name: "EL9 - Le prologue",
+            book: "Juste la fin du monde",
+            author: "Jean-Luc Lagarce",
+            date: 1990
+        },
+
+        {
+            name: "EL10 - La Mère",
+            book: "Juste la fin du monde",
+            author: "Jean-Luc Lagarce",
+            date: 1990
+        },
+
+        {
+            name: "EL11 - part. II, Sc. 3 (La fratrie)",
+            book: "Juste la fin du monde",
+            author: "Jean-Luc Lagarce",
+            date: 1990
+        },
+
+        {
+            name: "EL12 - Extrait",
+            book: "La Place",
+            author: "Annie Ernaux",
+            date: 1983
+        },
+
+        {
+            name: "EL13 - Act. III, Sc. 2",
+            book: "Les Fourberies de Scapin",
+            author: "Molière",
+            date: 1671
+        },
+
+        {
+            name: "EL14 - Le préambule",
+            book: "Décl. Droits Femme et Citoyenne",
+            author: "Olympe de Gouges",
+            date: 1791
         },
 
     ],
