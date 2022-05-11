@@ -96,8 +96,7 @@ let data = {
             book: "Décl. Droits Femme et Citoyenne",
             author: "Olympe de Gouges",
             date: 1791
-        },
-
+        }
     ],
 
     questions: [
@@ -157,8 +156,7 @@ $("#wrapper > .intro .button").on("click", () => {
 
 function random() {
     let txt_index = Math.floor(Math.random() * data.texts.length),
-        txt = data.texts[txt_index],
-        question = data.questions[txt_index][Math.floor(Math.random() * data.questions[txt_index].length)];
+        txt = data.texts[txt_index];
 
     $("#wrapper > .reveal .data_text").html(txt.name);
     $("#wrapper > .reveal p.infos").html("<span class='underline'>"+txt.book+"</span>, <br>"+txt.author+", "+txt.date);
