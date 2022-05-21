@@ -32,6 +32,26 @@
     margin-top: 30px;
 }
 
+#wrapper > .intro a {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 30px;
+    text-decoration: none;
+    display: block;
+    margin: 16px 0 32px 0;
+    color: #FF4136;
+    opacity: .85;
+}
+
+#wrapper > .intro a span {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
 .intro .button {
     font-family: "Lexend Deca", sans-serif;
     font-size: 18px;

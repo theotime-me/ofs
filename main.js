@@ -96,6 +96,13 @@ let data = {
             book: "Décl. Droits Femme et Citoyenne",
             author: "Olympe de Gouges",
             date: 1791
+        },
+
+        {
+            name: "EL15 - Le postambule",
+            book: "Décl. Droits Femme et Citoyenne",
+            author: "Olympe de Gouges",
+            date: 1791
         }
     ],
 
